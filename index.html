@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suriya Stardom</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="container">
+            <h1 class="animate-title">SURIYA STARDOM</h1>
+            <hr width="310" color="white">
+            <p class="intro-text">Enter your name and generate a Retro Poster with your name!</p>
+            <div class="input-group">
+                <input type="text" id="nameInput" placeholder="Enter your name..." class="name-input">
+                <button class="btngenerate" onclick="generateImage()">Generate Poster</button>
+            </div>
+            <h2>Follow Us on X</h2>
+            <p>To Download, Follow us on X (Twitter)!</p>         
+            <a href="https://x.com/SuriyaStardom" target="_blank" class="btnfollow">CLICK HERE TO FOLLOW</a>
+            <canvas id="imageCanvas" class="canvas"></canvas>
+            <button id="downloadBtn" class="btngenerate" onclick="downloadImage()">I Followed, Download Now</button>
+        </div>
+    </div>
+</body>
+</html>
